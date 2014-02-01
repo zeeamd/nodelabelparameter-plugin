@@ -34,9 +34,9 @@
 <!--     <hudson.tasks.BatchFile> -->
 <!--       <command>SET</command> -->
 <!--     </hudson.tasks.BatchFile> -->
-    <hudson.tasks.Shell>
-      <command>set</command>
-    </hudson.tasks.Shell>
+<!--     <hudson.tasks.Shell> -->
+<!--       <command>set</command> -->
+<!--     </hudson.tasks.Shell> -->
   </builders>
   <publishers>
     <hudson.plugins.parameterizedtrigger.BuildTrigger plugin="parameterized-trigger@2.19">
