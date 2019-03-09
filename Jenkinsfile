@@ -15,4 +15,3 @@ String testReports = '**/target/surefire-reports/**/*.xml'
     }
 
 stage 'build'
-parallel(platforms)
